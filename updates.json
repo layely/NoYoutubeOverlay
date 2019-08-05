@@ -4,7 +4,7 @@
       "updates": [
         {
           "version": "1.0",
-          "update_link": "https://example.com/addon-0.1.xpi"
+          "update_link": "https://github.com/layely/NoYoutubeOverlay/raw/master/YoutubeNoOverlay_v1.zip"
         }
       ]
     }
