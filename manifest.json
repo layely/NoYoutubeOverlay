@@ -14,5 +14,15 @@
         "matches": ["*://*.youtube.com/*"],
         "js": ["extension.js"]
       }
-    ]
-  }
+    ],
+
+    "browser_specific_settings": {
+        "gecko": {
+          "id": "YoutubeNoOverlay@example.com",
+          "strict_min_version": "42.0",
+        },
+        "edge": {
+          "browser_action_next_to_addressbar": false
+        }
+    }
+}
