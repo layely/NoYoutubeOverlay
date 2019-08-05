@@ -14,11 +14,5 @@
         "matches": ["*://*.youtube.com/*"],
         "js": ["extension.js"]
       }
-    ],
-
-    "applications": {
-        "gecko": {
-          "id": "YoutubeNoOverlay@example.org"
-        }
-      }
+    ]
   }
