@@ -1,0 +1,1 @@
+WebExtension to hide annoying overlay elements that appear towards the end of youtube videos.
