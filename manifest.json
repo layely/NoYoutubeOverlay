@@ -1,28 +1,26 @@
 {
-    "manifest_version": 2,
-    "name": "Youtube Overlay videos Hidder",
-    "version": "1.0",
-  
-    "description": "Hide annoying overlay elements that appear towards the end of youtube videos",
+  "manifest_version": 2,
+  "name": "Youtube Overlay videos Hidder",
+  "version": "1.0",
 
-    "icons": {
-      "48": "icons/Youtube_no_overlay.png"
-    },
+  "description": "Hide annoying overlay elements that appear towards the end of youtube videos",
 
-    "content_scripts": [
-      {
-        "matches": ["*://*.youtube.com/*"],
-        "js": ["extension.js"]
-      }
-    ],
+  "icons": {
+    "48": "icons/Youtube_no_overlay.png"
+  },
 
-    "browser_specific_settings": {
-        "gecko": {
-          "id": "YoutubeNoOverlay@example.com",
-          "strict_min_version": "42.0",
-        },
-        "edge": {
-          "browser_action_next_to_addressbar": false
-        }
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["extension.js"]
     }
+  ],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "e693f8a9-ebc0-425e-9c8d-31d8bb87202d",
+      "strict_min_version": "42.0",
+      "update_url": "https://example.com/updates.json"
+    }
+  }
 }
