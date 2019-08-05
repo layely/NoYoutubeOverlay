@@ -18,7 +18,7 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "e693f8a9-ebc0-425e-9c8d-31d8bb87202d",
+      "id": "{d55480b8-cc9c-4661-bfa7-68f468483177}",
       "strict_min_version": "42.0",
       "update_url": "https://raw.githubusercontent.com/layely/NoYoutubeOverlay/master/updates.json"
     }
