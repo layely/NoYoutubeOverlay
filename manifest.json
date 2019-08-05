@@ -20,7 +20,7 @@
     "gecko": {
       "id": "e693f8a9-ebc0-425e-9c8d-31d8bb87202d",
       "strict_min_version": "42.0",
-      "update_url": "https://example.com/updates.json"
+      "update_url": "https://raw.githubusercontent.com/layely/NoYoutubeOverlay/master/updates.json"
     }
   }
 }
